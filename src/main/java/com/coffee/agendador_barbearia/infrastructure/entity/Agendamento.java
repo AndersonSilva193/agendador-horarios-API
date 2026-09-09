@@ -27,7 +27,4 @@ public class Agendamento {
     private LocalDateTime dataHoraAgendamento;
     private LocalDateTime dataIncersao = LocalDateTime.now();
 
-
-
-
 }

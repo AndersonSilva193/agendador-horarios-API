@@ -39,7 +39,7 @@ public class AgendamentoController {
         return ResponseEntity.noContent().build();
     }
 
-    @GetMapping
+    @GetMapping("/barbeiro_horarios")
     public ResponseEntity<List<Agendamento>> buscarAgendamentosDia(@RequestParam LocalDate data){
         return ResponseEntity.ok().body(agendamentoService.buscarAgendamentosDia((data)));
     }
